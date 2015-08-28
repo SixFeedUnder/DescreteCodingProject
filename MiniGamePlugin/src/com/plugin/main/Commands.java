@@ -11,7 +11,7 @@ public class Commands implements CommandExecutor {
 		
 		if (commandLabel.equalsIgnoreCase("test")) {
 			sender.sendMessage("This is working");
-			sender.sendMessahe("Awesome we actually did it! :D")
+			sender.sendMessahe("Awesome we actually did it! :D");
 		}
 		return false;
 	}
