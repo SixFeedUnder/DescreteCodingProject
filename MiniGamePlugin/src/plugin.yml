@@ -1,0 +1,7 @@
+main: com.plugin.main.Main
+name: MiniGame
+version: 1.0
+description: In testing stages
+commands:
+  test:
+    description: TEST
