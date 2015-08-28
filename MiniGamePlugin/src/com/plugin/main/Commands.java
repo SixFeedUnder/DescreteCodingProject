@@ -12,8 +12,12 @@ public class Commands implements CommandExecutor {
 		if (commandLabel.equalsIgnoreCase("test")) {
 			sender.sendMessage("This is working");
 			sender.sendMessage("Awesome we actually did it! :D");
-			sender.sendMessage(chatcolor.Green + "Lol Jd is gay af, jk");
-		} else
+			sender.sendMessage("Lol Jd is gay af, jk");
+		} else {
+		
+		if (commandLabel.equalsIgnoreCase("suicide")) {
+			sender.sendMessage("Lol Not today");
+		}
 		}
 		return false;
 	}
